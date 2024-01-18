@@ -1,0 +1,16 @@
+Jak cos to w tym nifi mam ustawione swoje nazwy katalogów 
+w local maszynie mam /home/vagrant/nifi/input
+a na hdfs mam /user/tytkowskid/nifi_in
+wszystkie pliki wrzucam do nifi/input i potem juz mozna odpalac
+
+w hbase dwie tabele tworze
+create 'pogoda_hist', 'id', 'data'
+create 'przejazdy_hist', 'id', 'data'
+
+link do plików z przejazdami: https://drive.google.com/drive/folders/1rXCQr8yWXmZrFF40PP6R-TQ7Kf12-Kln?usp=drive_link
+pobierz tylko te z datami które sa w pythonowym pliku do robienia csv PAMIETAJ zeby pobierac i gtfs zwykly i gtfs-rt
+
+link do pogodowych https://danepubliczne.imgw.pl/data/dane_pomiarowo_obserwacyjne/dane_meteorologiczne/dobowe/klimat/
+wszystkie z 2022 i 2023 te w formacie k_d_format
+
+tam sobie trzeba rozpakować to wszystko niestety (chyba) i dam jeszcze jupyterowy plik który robi z nich dobre csvy na gicie
