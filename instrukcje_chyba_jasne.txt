@@ -14,3 +14,6 @@ link do pogodowych https://danepubliczne.imgw.pl/data/dane_pomiarowo_obserwacyjn
 wszystkie z 2022 i 2023 te w formacie k_d_format
 
 tam sobie trzeba rozpakować to wszystko niestety (chyba) i dam jeszcze jupyterowy plik który robi z nich dobre csvy na gicie
+
+żeby preprocessing.ipynb działał, to musisz odpalić na vagrant /usr/local/hbase/bin/hbase thrift
+joined_data do wrzucenia na hdfs do /user/tytkowskid i pikobello
